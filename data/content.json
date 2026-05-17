@@ -97,8 +97,8 @@
     ]
   },
   "theme": {
-    "primaryColor": "#B8826A",
-    "accentColor": "#5C2C36",
-    "fontFamily": "cormorant-inter"
+    "primaryColor": "#2563EB",
+    "accentColor": "#F97316",
+    "fontFamily": "playfair-inter"
   }
 }
