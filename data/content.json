@@ -1,47 +1,104 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "StellusikNail",
+  "tagline": "Quiet luxury for hands and feet.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Nails styled like a couture editorial.",
+    "subheading": "A tiny, intentional Glendale studio for gel, structured manicures, and bespoke art. Seventy-one five-star reviews and counting.",
+    "ctaText": "Book a chair",
+    "ctaLink": "tel:8185107999",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGktTM9EcUFbxWnU8MrO5l3VwZ0YY-bseKEczvwOT3E8kdYrM-qccl0To6nRqfLPi5nFOYC_8bCS19fnFN4SjT55_k7GZzMDEa2mvqRNohy6XTEtDyGpICywjXyvc4Yy0iSyIrsRCYBZ8sz=w1600"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "Small studio. Big standards.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Stellusik is a one-chair-at-a-time nail studio — no walk-ins, no overbooking, no cheap polish. Every service is shaped to your hand, your lifestyle, and the look you've been saving on Instagram.",
+      "Our clients keep coming back because the work lasts: structured gel that doesn't lift, art that doesn't flake, finishes that look brand-new at three weeks."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Signature Gel Manicure",
+      "description": "Structured gel overlay, mirror-smooth finish, your choice of color from our editorial palette.",
+      "price": "from $65"
+    },
+    {
+      "title": "Builder Gel Extensions",
+      "description": "Soft-square, almond, or coffin — sculpted on your natural nail with builder gel, no acrylic.",
+      "price": "from $95"
+    },
+    {
+      "title": "Bespoke Nail Art",
+      "description": "Hand-painted designs, chrome, ombré, French variations. Brought in a screenshot? Even better.",
+      "price": "from $20 / nail"
+    },
+    {
+      "title": "Russian Pedicure",
+      "description": "Dry, e-file based pedicure with a true cuticle reset. The smoothest feet you'll wear all season.",
+      "price": "from $85"
+    },
+    {
+      "title": "Soak-off & Reset",
+      "description": "Gentle gel removal, nail strengthening treatment, prep for your next look.",
+      "price": "$25"
+    },
+    {
+      "title": "Lash Lift & Tint",
+      "description": "Add-on service for clients who like to leave the chair fully styled. By appointment only.",
+      "price": "$95"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Lara K.",
+      "rating": 5,
+      "text": "I've gone every three weeks for almost two years. Best gel application in Glendale — period."
+    },
+    {
+      "name": "Maya H.",
+      "rating": 5,
+      "text": "Booked builder gel and a custom design for my wedding. She nailed (sorry) exactly the moodboard I sent."
+    },
+    {
+      "name": "Sara T.",
+      "rating": 5,
+      "text": "Worth every dollar. Quiet, clean, calm — and the work holds up perfectly."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 510-7999",
+    "email": "hello@stellusiknail.com",
+    "address": "1010 N Glendale Ave #205, Glendale, CA 91206",
+    "mapEmbedQuery": "StellusikNail, 1010 N Glendale Ave #205, Glendale, CA 91206",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "10:00 AM – 7:00 PM",
+      "Tuesday": "10:00 AM – 7:00 PM",
+      "Wednesday": "10:00 AM – 7:00 PM",
+      "Thursday": "10:00 AM – 7:00 PM",
+      "Friday": "10:00 AM – 7:00 PM",
+      "Saturday": "10:00 AM – 6:00 PM",
       "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    }
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/stellusiknail/",
+    "facebook": "https://www.facebook.com/61563884313598/",
+    "yelp": "https://www.yelp.com/biz/stellusiknail-glendale"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "StellusikNail — Couture Nail Studio in Glendale",
+    "description": "Editorial nail studio in Glendale, CA. Structured gel, builder gel extensions, bespoke art, and Russian pedicures. 5-star rated, by appointment.",
+    "keywords": [
+      "Glendale nail salon",
+      "gel manicure Glendale",
+      "builder gel nails",
+      "nail art Glendale",
+      "Russian pedicure Glendale",
+      "luxury nail studio"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#B8826A",
+    "accentColor": "#5C2C36",
+    "fontFamily": "cormorant-inter"
   }
 }
