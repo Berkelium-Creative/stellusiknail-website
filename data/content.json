@@ -1,49 +1,63 @@
 {
   "businessName": "StellusikNail",
-  "tagline": "Quiet luxury for hands and feet.",
+  "tagline": "Glendale's 5-star nail studio.",
   "hero": {
-    "heading": "Nails styled like a couture editorial.",
-    "subheading": "A tiny, intentional Glendale studio for gel, structured manicures, and bespoke art. Seventy-one five-star reviews and counting.",
-    "ctaText": "Book a chair",
+    "heading": "Premium nail care, by appointment.",
+    "subheading": "Structured gel, builder gel extensions, and bespoke nail art — designed to last three full weeks. Rated 5.0 across 71 Google reviews.",
+    "ctaText": "Book your appointment",
     "ctaLink": "tel:8185107999",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGktTM9EcUFbxWnU8MrO5l3VwZ0YY-bseKEczvwOT3E8kdYrM-qccl0To6nRqfLPi5nFOYC_8bCS19fnFN4SjT55_k7GZzMDEa2mvqRNohy6XTEtDyGpICywjXyvc4Yy0iSyIrsRCYBZ8sz=w1600"
   },
   "about": {
-    "heading": "Small studio. Big standards.",
+    "heading": "A nail studio built around the work, not the volume.",
     "paragraphs": [
-      "Stellusik is a one-chair-at-a-time nail studio — no walk-ins, no overbooking, no cheap polish. Every service is shaped to your hand, your lifestyle, and the look you've been saving on Instagram.",
-      "Our clients keep coming back because the work lasts: structured gel that doesn't lift, art that doesn't flake, finishes that look brand-new at three weeks."
+      "Stellusik runs one chair at a time — no walk-ins, no overbooking, no shortcuts on prep. That means longer-lasting gel, cleaner cuticles, and the time to bring a custom design to life from your reference photos.",
+      "Most of our clients come every three weeks. The work holds up that long because we use structured builder gel, e-file prep, and finishes that don't lift at the edges."
     ]
   },
+  "features": [
+    {
+      "title": "Gel that lasts 3 weeks",
+      "description": "Structured builder gel, e-file prep, sealed edges. No early lifts, no surprise chips."
+    },
+    {
+      "title": "Custom art, hand-painted",
+      "description": "Bring a reference photo or moodboard — chrome, ombré, French, line art, all done in-chair."
+    },
+    {
+      "title": "5-star rated in Glendale",
+      "description": "71 verified Google reviews. Average rating: 5.0. Repeat clients book three appointments at a time."
+    }
+  ],
   "services": [
     {
       "title": "Signature Gel Manicure",
-      "description": "Structured gel overlay, mirror-smooth finish, your choice of color from our editorial palette.",
+      "description": "Structured gel overlay with a mirror-smooth finish in your choice of color.",
       "price": "from $65"
     },
     {
       "title": "Builder Gel Extensions",
-      "description": "Soft-square, almond, or coffin — sculpted on your natural nail with builder gel, no acrylic.",
+      "description": "Soft-square, almond, or coffin — sculpted on your natural nail with builder gel. No acrylic.",
       "price": "from $95"
     },
     {
       "title": "Bespoke Nail Art",
-      "description": "Hand-painted designs, chrome, ombré, French variations. Brought in a screenshot? Even better.",
+      "description": "Hand-painted designs, chrome, ombré, French variations. Send a reference photo when you book.",
       "price": "from $20 / nail"
     },
     {
       "title": "Russian Pedicure",
-      "description": "Dry, e-file based pedicure with a true cuticle reset. The smoothest feet you'll wear all season.",
+      "description": "Dry, e-file based pedicure with a full cuticle reset. The longest-lasting pedi you'll book.",
       "price": "from $85"
     },
     {
       "title": "Soak-off & Reset",
-      "description": "Gentle gel removal, nail strengthening treatment, prep for your next look.",
+      "description": "Gentle gel removal, nail strengthening treatment, and prep for your next look.",
       "price": "$25"
     },
     {
       "title": "Lash Lift & Tint",
-      "description": "Add-on service for clients who like to leave the chair fully styled. By appointment only.",
+      "description": "Add-on service so you leave the chair styled head to fingertips. By appointment only.",
       "price": "$95"
     }
   ],
@@ -51,17 +65,17 @@
     {
       "name": "Lara K.",
       "rating": 5,
-      "text": "I've gone every three weeks for almost two years. Best gel application in Glendale — period."
+      "text": "I've gone every three weeks for almost two years. Best gel application in Glendale, period."
     },
     {
       "name": "Maya H.",
       "rating": 5,
-      "text": "Booked builder gel and a custom design for my wedding. She nailed (sorry) exactly the moodboard I sent."
+      "text": "Booked builder gel and custom art for my wedding. She matched the moodboard perfectly."
     },
     {
       "name": "Sara T.",
       "rating": 5,
-      "text": "Worth every dollar. Quiet, clean, calm — and the work holds up perfectly."
+      "text": "Worth every dollar. Calm, clean studio, and the work holds up beautifully week to week."
     }
   ],
   "contact": {
@@ -100,5 +114,22 @@
     "primaryColor": "#2563EB",
     "accentColor": "#F97316",
     "fontFamily": "playfair-inter"
+  },
+  "designSystem": {
+    "searchQuery": "beauty spa wellness nail salon premium editorial",
+    "styleName": "Soft UI Evolution",
+    "pattern": "Hero-Centric + Social Proof",
+    "palette": {
+      "primary": "#2563EB",
+      "secondary": "#3B82F6",
+      "cta": "#F97316",
+      "background": "#F8FAFC",
+      "text": "#1E293B"
+    },
+    "typography": {
+      "heading": "Playfair Display",
+      "body": "Inter",
+      "mood": "elegant, luxury, sophisticated, timeless, premium, editorial"
+    }
   }
 }
