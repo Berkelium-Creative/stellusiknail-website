@@ -52,6 +52,9 @@ export default function Page() {
           padding: 0.4rem 0.6rem 0 0;
           color: ${INK};
         }
+        /* Editorial multi-column for the about section (collapses to 1 column on mobile) */
+        .editorial-columns { column-count: 1; column-gap: 3rem; }
+        @media (min-width: 768px) { .editorial-columns { column-count: 2; } }
         @media (prefers-reduced-motion: reduce) {
           .fade-up, .fade-in { animation: none !important; }
         }
@@ -64,7 +67,7 @@ export default function Page() {
             Stellusik <span style={{ fontStyle: "normal" }}>·</span> Nail
           </a>
           <div className="flex items-center gap-2 md:gap-4">
-            <span className={mono.className} style={{ display: "none", color: MUTED, fontSize: "0.7rem", letterSpacing: "0.2em", textTransform: "uppercase" }} className-md-inline>
+            <span className={`${mono.className} hidden md:inline`} style={{ color: MUTED, fontSize: "0.7rem", letterSpacing: "0.2em", textTransform: "uppercase" }}>
               By appointment
             </span>
             <a href={phoneTel} className={mono.className} style={{ fontSize: "0.7rem", letterSpacing: "0.18em", textTransform: "uppercase", color: INK, borderBottom: `1px solid ${GOLD}`, paddingBottom: "2px", textDecoration: "none" }}>
@@ -148,10 +151,7 @@ export default function Page() {
             <p className="md:col-span-12 max-w-3xl drop-cap" style={{ fontSize: "1.4rem", lineHeight: 1.5, color: INK_SOFT, fontWeight: 300 }}>
               {content.about.leadIn}
             </p>
-            <div className="md:col-span-12 mt-4" style={{ columnCount: 2, columnGap: "3rem" }}>
-              <style jsx>{`
-                @media (max-width: 767px) { div { column-count: 1 !important; } }
-              `}</style>
+            <div className="md:col-span-12 mt-4 editorial-columns">
               {content.about.paragraphs.map((p, i) => (
                 <p key={i} style={{ fontSize: "1.0625rem", lineHeight: 1.65, color: INK_SOFT, marginBottom: "1.2rem", breakInside: "avoid" }}>
                   {p}
