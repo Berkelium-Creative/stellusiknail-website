@@ -1,34 +1,33 @@
 {
   "businessName": "StellusikNail",
-  "tagline": "Glendale's 5-star nail studio.",
+  "tagline": "A Glendale nail atelier.",
   "hero": {
-    "heading": "Premium nail care, by appointment.",
-    "subheading": "Structured gel, builder gel extensions, and bespoke nail art — designed to last three full weeks. Rated 5.0 across 71 Google reviews.",
-    "ctaText": "Book your appointment",
+    "eyebrow": "EST. GLENDALE · 5.0 ★ × 71",
+    "heading": "The detail is the design.",
+    "subheading": "An appointment-only nail atelier specializing in structured gel, builder-gel extensions, and hand-painted nail art that holds its shape three weeks.",
+    "ctaText": "Reserve a chair",
     "ctaLink": "tel:8185107999",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGktTM9EcUFbxWnU8MrO5l3VwZ0YY-bseKEczvwOT3E8kdYrM-qccl0To6nRqfLPi5nFOYC_8bCS19fnFN4SjT55_k7GZzMDEa2mvqRNohy6XTEtDyGpICywjXyvc4Yy0iSyIrsRCYBZ8sz=w1600"
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGktTM9EcUFbxWnU8MrO5l3VwZ0YY-bseKEczvwOT3E8kdYrM-qccl0To6nRqfLPi5nFOYC_8bCS19fnFN4SjT55_k7GZzMDEa2mvqRNohy6XTEtDyGpICywjXyvc4Yy0iSyIrsRCYBZ8sz=w1600",
+    "stat": {
+      "value": "5.0",
+      "label": "Average rating",
+      "footnote": "Across 71 verified Google reviews"
+    }
   },
   "about": {
-    "heading": "A nail studio built around the work, not the volume.",
+    "label": "Inside the studio",
+    "heading": "One chair. Three weeks of wear. Zero shortcuts.",
+    "leadIn": "Stellusik is a single-chair studio in Glendale. No walk-ins, no double-booking, no rushed cuticle work. Every appointment is an hour-and-change of slow, deliberate hand work.",
     "paragraphs": [
-      "Stellusik runs one chair at a time — no walk-ins, no overbooking, no shortcuts on prep. That means longer-lasting gel, cleaner cuticles, and the time to bring a custom design to life from your reference photos.",
-      "Most of our clients come every three weeks. The work holds up that long because we use structured builder gel, e-file prep, and finishes that don't lift at the edges."
+      "The work holds up because the prep is real. We dry-file with an e-file, seal the side walls, and build with structured gel — not soft polish stretched over a base. That is why clients book three weeks out and the manicure looks new the morning of the next appointment.",
+      "Custom art is the other half of the studio. Bring a screenshot, a moodboard, or a fabric swatch — chrome, ombré, line art, micro-french. We plan the design in the chair, then paint it freehand."
     ]
   },
-  "features": [
-    {
-      "title": "Gel that lasts 3 weeks",
-      "description": "Structured builder gel, e-file prep, sealed edges. No early lifts, no surprise chips."
-    },
-    {
-      "title": "Custom art, hand-painted",
-      "description": "Bring a reference photo or moodboard — chrome, ombré, French, line art, all done in-chair."
-    },
-    {
-      "title": "5-star rated in Glendale",
-      "description": "71 verified Google reviews. Average rating: 5.0. Repeat clients book three appointments at a time."
-    }
-  ],
+  "pullQuote": {
+    "text": "Best gel application in Glendale, period. I've gone every three weeks for almost two years and the work has never let me down.",
+    "author": "Lara K.",
+    "detail": "Client since 2024"
+  },
   "services": [
     {
       "title": "Signature Gel Manicure",
@@ -111,25 +110,38 @@
     ]
   },
   "theme": {
-    "primaryColor": "#2563EB",
-    "accentColor": "#F97316",
-    "fontFamily": "playfair-inter"
+    "primaryColor": "#1C1917",
+    "accentColor": "#A16207",
+    "fontFamily": "bodoni-jost"
   },
   "designSystem": {
-    "searchQuery": "beauty spa wellness nail salon premium editorial",
-    "styleName": "Soft UI Evolution",
-    "pattern": "Hero-Centric + Social Proof",
+    "searchQuery": "beauty premium luxe warm earth editorial bento gallery content-first",
+    "styleName": "Editorial Magazine + Bento Grid (hybrid)",
+    "pattern": "Portfolio Grid",
     "palette": {
-      "primary": "#2563EB",
-      "secondary": "#3B82F6",
-      "cta": "#F97316",
-      "background": "#F8FAFC",
-      "text": "#1E293B"
+      "primary": "#1C1917",
+      "secondary": "#44403C",
+      "cta": "#A16207",
+      "background": "#FAFAF9",
+      "text": "#0C0A09",
+      "muted": "#78716C",
+      "border": "#D6D3D1",
+      "surface": "#FFFFFF"
     },
     "typography": {
-      "heading": "Playfair Display",
-      "body": "Inter",
-      "mood": "elegant, luxury, sophisticated, timeless, premium, editorial"
-    }
+      "heading": "Bodoni Moda",
+      "body": "Jost",
+      "label": "JetBrains Mono",
+      "mood": "luxury minimalist, high-contrast editorial, fashion-house"
+    },
+    "moves": [
+      "Asymmetric bento hero grid (title + photo + stat + cta as discrete blocks)",
+      "Drop-cap editorial about section, magazine voice",
+      "Pull quote with oversized open-quote glyph + drop cap",
+      "Services as editorial price ledger (right-aligned prices, hairline rules) — NOT cards",
+      "Hours + map as a single black feature block with gold rule dividers",
+      "Mono uppercase labels (tracking-widest) for section eyebrows",
+      "No Soft UI shadows — depth comes from contrast (black/cream/gold) and 1px hairline rules"
+    ]
   }
 }
